@@ -1,0 +1,64 @@
+:root {
+    --myColor: #FFD500;
+    --fLeft: left;
+  }
+
+.main{
+    width: 800px;
+    height: 600px;
+    /* background: grey; */
+    float: var(--fLeft);
+    /* padding: 20px; */
+}
+
+.header{
+    width: 800px;
+    min-height: 70px;
+    background: var(--myColor);
+    float: var(--fLeft);
+}
+
+.center{
+    width: 800px;
+    min-height: 430px;
+    /* background: green; */
+    float: var(--fLeft);;
+    margin: 15px 0px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
+    /* margin:15px 0px 15px 0px; */
+
+}
+
+.footer{
+    width: 800px;
+    min-height: 70px;
+    background: var(--myColor);
+    float: var(--fLeft);;
+}
+
+.nav{
+    width: 200px;
+    min-height: inherit;
+    float: var(--fLeft);
+    background: var(--myColor);
+}
+
+.article{
+    width: 420px;
+    min-height: inherit;
+    background: var(--myColor);
+    float: var(--fLeft);
+    margin: 0px 15px;
+}
+
+.ads{
+    width: 150px;
+    min-height:inherit;
+    background: var(--myColor);
+    float: var(--fLeft);
+}
+
+.fLeft{
+    float: left;
+}
